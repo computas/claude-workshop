@@ -23,11 +23,13 @@ export default defineConfig({
       command: 'npm run start -w backend',
       port: 3001,
       reuseExistingServer: !process.env.CI,
+      cwd: '..',
     },
     {
       command: 'npm run preview -w frontend',
       port: 5173,
       reuseExistingServer: !process.env.CI,
+      cwd: '..',
     },
   ],
 });

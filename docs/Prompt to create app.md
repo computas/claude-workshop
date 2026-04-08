@@ -33,6 +33,10 @@ The application shall allow to manage a product catalog via an admin-only sectio
   specific order log
     - add a button to directly open the logs directory in the operating system
 
+# Tests
+
+Also crate a suite of unit and integrations tests for the application backend and possibly frontend
+
 # Example Data
 
 Please generate a set of 50 sample products (imaginary or real lego sets, whatever is simpler to find) with prices from 100NOK to 3000NOK, generating images and descriptions accordingy and storing them in a database.

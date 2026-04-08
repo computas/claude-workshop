@@ -2,7 +2,6 @@ import React, {
   createContext,
   useContext,
   useState,
-  useEffect,
   useCallback,
 } from 'react';
 import type { CartItem, Product } from '@workshop/shared';
@@ -33,41 +32,44 @@ function loadFromStorage(): CartItem[] {
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<CartItem[]>(loadFromStorage);
 
-  useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-  }, [items]);
-
   const addItem = useCallback((product: Product) => {
     setItems((prev) => {
       const existing = prev.find((item) => item.product.id === product.id);
-      if (existing) {
-        return prev.map((item) =>
-          item.product.id === product.id
-            ? { ...item, quantity: item.quantity + 1 }
-            : item,
-        );
-      }
-      return [...prev, { product, quantity: 1 }];
+      const next = existing
+        ? prev.map((item) =>
+            item.product.id === product.id
+              ? { ...item, quantity: item.quantity + 1 }
+              : item,
+          )
+        : [...prev, { product, quantity: 1 }];
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+      return next;
     });
   }, []);
 
   const removeItem = useCallback((productId: number) => {
-    setItems((prev) => prev.filter((item) => item.product.id !== productId));
+    setItems((prev) => {
+      const next = prev.filter((item) => item.product.id !== productId);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+      return next;
+    });
   }, []);
 
   const updateQuantity = useCallback((productId: number, quantity: number) => {
-    if (quantity <= 0) {
-      setItems((prev) => prev.filter((item) => item.product.id !== productId));
-    } else {
-      setItems((prev) =>
-        prev.map((item) =>
-          item.product.id === productId ? { ...item, quantity } : item,
-        ),
-      );
-    }
+    setItems((prev) => {
+      const next =
+        quantity <= 0
+          ? prev.filter((item) => item.product.id !== productId)
+          : prev.map((item) =>
+              item.product.id === productId ? { ...item, quantity } : item,
+            );
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+      return next;
+    });
   }, []);
 
   const clearCart = useCallback(() => {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify([]));
     setItems([]);
   }, []);
 

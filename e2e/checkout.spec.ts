@@ -28,6 +28,7 @@ test.describe('Shopping cart', () => {
     await page.goto('/');
     await page.waitForSelector('[data-testid="add-to-cart-button"]');
     await page.locator('[data-testid="add-to-cart-button"]').first().click();
+    await page.waitForSelector('[data-testid="cart-count"]');
 
     await page.goto('/checkout');
     await expect(page.locator('input[name="shipping_name"]')).toBeVisible();
@@ -39,6 +40,7 @@ test.describe('Shopping cart', () => {
     await page.goto('/');
     await page.waitForSelector('[data-testid="add-to-cart-button"]');
     await page.locator('[data-testid="add-to-cart-button"]').first().click();
+    await page.waitForSelector('[data-testid="cart-count"]');
 
     await page.goto('/checkout');
 

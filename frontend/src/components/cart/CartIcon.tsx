@@ -15,6 +15,7 @@ export default function CartIcon() {
       🛒
       {itemCount > 0 && (
         <span
+          data-testid="cart-count"
           className="badge"
           style={{
             position: 'absolute',

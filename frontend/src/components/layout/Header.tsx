@@ -18,7 +18,7 @@ export function Header() {
           onClick={() => navigate('/cart')}
           aria-label="Handlekurv"
         >
-          🛒 {itemCount > 0 && <span className="badge">{itemCount}</span>}
+          🛒 {itemCount > 0 && <span className="badge" data-testid="cart-count">{itemCount}</span>}
         </button>
       </nav>
     </header>

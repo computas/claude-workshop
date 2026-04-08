@@ -107,6 +107,7 @@ export function CheckoutForm() {
           <label htmlFor="s-name">Navn *</label>
           <input
             id="s-name"
+            name="shipping_name"
             className="form-control"
             required
             value={form.shipping.name}
@@ -117,6 +118,7 @@ export function CheckoutForm() {
           <label htmlFor="s-email">E-post *</label>
           <input
             id="s-email"
+            name="email"
             className="form-control"
             type="email"
             required
@@ -128,6 +130,7 @@ export function CheckoutForm() {
           <label htmlFor="s-address">Adresse *</label>
           <input
             id="s-address"
+            name="shipping_address"
             className="form-control"
             required
             value={form.shipping.address}
@@ -139,6 +142,7 @@ export function CheckoutForm() {
             <label htmlFor="s-city">By *</label>
             <input
               id="s-city"
+              name="shipping_city"
               className="form-control"
               required
               value={form.shipping.city}
@@ -149,6 +153,7 @@ export function CheckoutForm() {
             <label htmlFor="s-zip">Postnummer *</label>
             <input
               id="s-zip"
+              name="shipping_zip"
               className="form-control"
               required
               value={form.shipping.zip}

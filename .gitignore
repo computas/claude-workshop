@@ -13,6 +13,7 @@ e2e/.cache/
 # Build artifacts
 frontend/dist/
 backend/dist/
+shared/dist/
 
 # OS
 .DS_Store

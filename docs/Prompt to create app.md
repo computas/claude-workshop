@@ -5,7 +5,7 @@ Create an example application for a Lego shopping website, written in react for 
 **The application is meant as a an example for a course, so certain parts will not implemented for real, as described below.**
 
 
-# Runtime environemnt
+# Runtime environment
 
 The application shall run locally only via vite and local startup of the backend as needed, since it's only  an example.
 

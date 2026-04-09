@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "tech": {
+      "source": "rawkode-academy/rawkode-academy",
+      "sourceType": "github",
+      "computedHash": "9fbee92822b2aaf2c4cade96715e0cb0167e04d17f41f2d88ac1ae5bf96bf970"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "lego-shopping-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Lego shopping example application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "seed": "node src/utils/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "winston": "^3.3.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg24" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#FCE4EC" stop-opacity="1"/><stop offset="60%" stop-color="#F8BBD9" stop-opacity="1"/><stop offset="60%" stop-color="#E8EAF6" stop-opacity="1"/><stop offset="100%" stop-color="#C5CAE9" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bg24)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="0" y="230" width="400" height="70" fill="#C5CAE9" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <path d="M 100,230 L 300,230" fill="none" stroke="#9FA8DA" stroke-width="1.5" opacity="0.5"/>
+  <rect x="130" y="120" width="140" height="120" fill="#FAFAFA" rx="5" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="200" cy="115" r="40" fill="#F5F5F5" stroke="none" stroke-width="1"/>
+  <circle cx="200" cy="115" r="15" fill="#EEE" stroke="none" stroke-width="1"/>
+  <rect x="72" y="130" width="16" height="100" fill="#F5F5F5" rx="4" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="80" cy="128" r="10" fill="#EEEEEE" stroke="none" stroke-width="1"/>
+  <polygon points="80,114 75,130 85,130" fill="#E0E0E0" stroke="none" stroke-width="1"/>
+  <rect x="312" y="130" width="16" height="100" fill="#F5F5F5" rx="4" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="320" cy="128" r="10" fill="#EEEEEE" stroke="none" stroke-width="1"/>
+  <polygon points="320,114 315,130 325,130" fill="#E0E0E0" stroke="none" stroke-width="1"/>
+  <rect x="145" y="155" width="35" height="85" fill="#EEE" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="162" cy="155" r="17" fill="#EEE" stroke="none" stroke-width="1"/>
+  <rect x="190" y="155" width="35" height="85" fill="#EEE" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="207" cy="155" r="17" fill="#EEE" stroke="none" stroke-width="1"/>
+  <rect x="235" y="155" width="35" height="85" fill="#EEE" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="252" cy="155" r="17" fill="#EEE" stroke="none" stroke-width="1"/>
+  <text x="200" y="70" font-size="16" fill="#9C27B0" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">TAJ MAHAL</text>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#7B1FA2" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">ARCHITECTURE</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Architecture Taj Mahal</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 3102 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 18++</text>
+</svg>

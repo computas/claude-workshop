@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg20" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#FFF8E1" stop-opacity="1"/><stop offset="80%" stop-color="#FFE082" stop-opacity="1"/><stop offset="80%" stop-color="#A5D6A7" stop-opacity="1"/><stop offset="100%" stop-color="#81C784" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bg20)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="60" cy="60" r="30" fill="#FFF9C4" stroke="none" stroke-width="1" opacity="0.9"/>
+  <rect x="30" y="80" width="340" height="130" fill="#BCAAA4" rx="15" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="35" y="98" width="330" height="110" fill="#A1887F" rx="15" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="40" y="116" width="320" height="90" fill="#8D6E63" rx="15" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="48" y="95" width="28" height="40" fill="none" rx="#795548" ry="2" stroke="none" stroke-width="1"/>
+  <circle cx="62" cy="95" r="14" fill="none" stroke="#795548" stroke-width="2"/>
+  <rect x="92" y="95" width="28" height="40" fill="none" rx="#795548" ry="2" stroke="none" stroke-width="1"/>
+  <circle cx="106" cy="95" r="14" fill="none" stroke="#795548" stroke-width="2"/>
+  <rect x="136" y="95" width="28" height="40" fill="none" rx="#795548" ry="2" stroke="none" stroke-width="1"/>
+  <circle cx="150" cy="95" r="14" fill="none" stroke="#795548" stroke-width="2"/>
+  <rect x="180" y="95" width="28" height="40" fill="none" rx="#795548" ry="2" stroke="none" stroke-width="1"/>
+  <circle cx="194" cy="95" r="14" fill="none" stroke="#795548" stroke-width="2"/>
+  <rect x="224" y="95" width="28" height="40" fill="none" rx="#795548" ry="2" stroke="none" stroke-width="1"/>
+  <circle cx="238" cy="95" r="14" fill="none" stroke="#795548" stroke-width="2"/>
+  <rect x="268" y="95" width="28" height="40" fill="none" rx="#795548" ry="2" stroke="none" stroke-width="1"/>
+  <circle cx="282" cy="95" r="14" fill="none" stroke="#795548" stroke-width="2"/>
+  <rect x="312" y="95" width="28" height="40" fill="none" rx="#795548" ry="2" stroke="none" stroke-width="1"/>
+  <circle cx="326" cy="95" r="14" fill="none" stroke="#795548" stroke-width="2"/>
+  <rect x="70" y="138" width="25" height="32" fill="none" rx="#5D4037" ry="1.5" stroke="none" stroke-width="1"/>
+  <circle cx="82" cy="138" r="12" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+  <rect x="114" y="138" width="25" height="32" fill="none" rx="#5D4037" ry="1.5" stroke="none" stroke-width="1"/>
+  <circle cx="126" cy="138" r="12" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+  <rect x="158" y="138" width="25" height="32" fill="none" rx="#5D4037" ry="1.5" stroke="none" stroke-width="1"/>
+  <circle cx="170" cy="138" r="12" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+  <rect x="202" y="138" width="25" height="32" fill="none" rx="#5D4037" ry="1.5" stroke="none" stroke-width="1"/>
+  <circle cx="214" cy="138" r="12" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+  <rect x="246" y="138" width="25" height="32" fill="none" rx="#5D4037" ry="1.5" stroke="none" stroke-width="1"/>
+  <circle cx="258" cy="138" r="12" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+  <rect x="290" y="138" width="25" height="32" fill="none" rx="#5D4037" ry="1.5" stroke="none" stroke-width="1"/>
+  <circle cx="302" cy="138" r="12" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+  <text x="200" y="65" font-size="16" fill="#5D4037" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">COLOSSEUM</text>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#795548" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">ARCHITECTURE</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Architecture Colosseum</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 4108 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 18++</text>
+</svg>

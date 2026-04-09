@@ -1,0 +1,18 @@
+{
+  "name": "lego-shop",
+  "version": "1.0.0",
+  "description": "LEGO Shopping Website - Course Example Application",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm run dev\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "test": "cd server && npm test",
+    "test:watch": "cd server && npm run test:watch"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

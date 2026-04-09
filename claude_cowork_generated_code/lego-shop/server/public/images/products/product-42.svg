@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg36" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#4A148C" stop-opacity="1"/><stop offset="60%" stop-color="#6A1B9A" stop-opacity="1"/><stop offset="60%" stop-color="#1A237E" stop-opacity="1"/><stop offset="100%" stop-color="#283593" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bg36)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="80" y="80" width="240" height="160" fill="#4527A0" rx="3" ry="0" stroke="none" stroke-width="1"/>
+<polygon points="75,80 200.0,60 325,80" fill="#311B92" stroke="none" stroke-width="1"/>
+<rect x="88" y="90" width="14" height="14" fill="#AED6F1" rx="2" ry="0" stroke="none" stroke-width="1"/>
+<rect x="88" y="110" width="14" height="14" fill="#AED6F1" rx="2" ry="0" stroke="none" stroke-width="1"/>
+<rect x="300" y="90" width="14" height="14" fill="#AED6F1" rx="2" ry="0" stroke="none" stroke-width="1"/>
+<rect x="300" y="110" width="14" height="14" fill="#AED6F1" rx="2" ry="0" stroke="none" stroke-width="1"/>
+<rect x="193.0" y="216" width="14" height="24" fill="#784212" rx="2" ry="0" stroke="none" stroke-width="1"/>
+  <text x="200" y="70" font-size="16" fill="#FFD700" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">WAKANDA</text>
+  <circle cx="200" cy="160" r="30" fill="#7E57C2" stroke="none" stroke-width="1" opacity="0.15"/>
+  <circle cx="200" cy="160" r="55" fill="#7E57C2" stroke="none" stroke-width="1" opacity="0.15"/>
+  <circle cx="200" cy="160" r="80" fill="#7E57C2" stroke="none" stroke-width="1" opacity="0.15"/>
+  <rect x="63.7" y="173.0" width="12.6" height="12.6" fill="#9C27B0" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<circle cx="70" cy="174.8" r="1.8" fill="#000" stroke="none" stroke-width="1" opacity="0.4"/>
+<rect x="66.4" y="185.6" width="7.2" height="5.4" fill="#9C27B0" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="61.0" y="191.0" width="18.0" height="16.2" fill="#212121" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="53.8" y="191.0" width="7.2" height="12.6" fill="#212121" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="79.0" y="191.0" width="7.2" height="12.6" fill="#212121" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="61.0" y="207.2" width="8.1" height="12.6" fill="#3A3A3A" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="70.9" y="207.2" width="8.1" height="12.6" fill="#3A3A3A" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="323.7" y="173.0" width="12.6" height="12.6" fill="#CE93D8" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<circle cx="330" cy="174.8" r="1.8" fill="#000" stroke="none" stroke-width="1" opacity="0.4"/>
+<rect x="326.4" y="185.6" width="7.2" height="5.4" fill="#CE93D8" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="321.0" y="191.0" width="18.0" height="16.2" fill="#212121" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="313.8" y="191.0" width="7.2" height="12.6" fill="#212121" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="339.0" y="191.0" width="7.2" height="12.6" fill="#212121" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="321.0" y="207.2" width="8.1" height="12.6" fill="#3A3A3A" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="330.9" y="207.2" width="8.1" height="12.6" fill="#3A3A3A" rx="1.8" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#4A148C" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">MARVEL</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Marvel Black Panther</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 832 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 10++</text>
+</svg>

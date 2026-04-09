@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg37" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#BF360C" stop-opacity="1"/><stop offset="100%" stop-color="#870000" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bg37)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="106.0" y="118.0" width="21.599999999999998" height="36.0" fill="#C62828" rx="3.5999999999999996" ry="0" stroke="none" stroke-width="1"/>
+<rect x="132.4" y="118.0" width="21.599999999999998" height="36.0" fill="#C62828" rx="3.5999999999999996" ry="0" stroke="none" stroke-width="1"/>
+<rect x="102.4" y="151.6" width="26.4" height="12.0" fill="#FF8F00" rx="4.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="128.8" y="151.6" width="26.4" height="12.0" fill="#FF8F00" rx="4.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="100" y="88.0" width="60.0" height="33.6" fill="#C62828" rx="4.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="114.4" y="94.0" width="31.2" height="19.2" fill="#FF8F00" rx="3.5999999999999996" ry="0" stroke="none" stroke-width="1" opacity="0.8"/>
+<rect x="85.6" y="88.0" width="14.399999999999999" height="28.799999999999997" fill="#C62828" rx="3.5999999999999996" ry="0" stroke="none" stroke-width="1"/>
+<rect x="160.0" y="88.0" width="14.399999999999999" height="28.799999999999997" fill="#C62828" rx="3.5999999999999996" ry="0" stroke="none" stroke-width="1"/>
+<rect x="112.0" y="67.6" width="36.0" height="21.599999999999998" fill="#C62828" rx="4.8" ry="0" stroke="none" stroke-width="1"/>
+<rect x="116.8" y="72.4" width="26.4" height="12.0" fill="#FF8F00" rx="2.4" ry="0" stroke="none" stroke-width="1" opacity="0.9"/>
+<circle cx="92.8" cy="86.8" r="6.0" fill="#FF8F00" stroke="none" stroke-width="1"/>
+<circle cx="167.2" cy="86.8" r="6.0" fill="#FF8F00" stroke="none" stroke-width="1"/>
+  <text x="200" y="265" font-size="12" fill="#FF8A65" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">HULKBUSTER ARMOR</text>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#870000" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">MARVEL</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Marvel Hulkbuster</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 456 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 12++</text>
+</svg>

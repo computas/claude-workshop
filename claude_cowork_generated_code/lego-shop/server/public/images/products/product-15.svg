@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bgF" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#212121" stop-opacity="1"/><stop offset="100%" stop-color="#37474F" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bgF)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="197" cy="215" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.22429062690846654"/>
+  <circle cx="267" cy="212" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6840144662712075"/>
+  <circle cx="270" cy="182" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5514481128499171"/>
+  <circle cx="124" cy="257" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5313736699310132"/>
+  <circle cx="379" cy="238" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.7644823298883294"/>
+  <circle cx="102" cy="54" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.39252376364996083"/>
+  <circle cx="75" cy="183" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.30181149343140035"/>
+  <circle cx="146" cy="92" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6431138207797218"/>
+  <circle cx="294" cy="219" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5168561148377009"/>
+  <circle cx="251" cy="38" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.22242642906312826"/>
+  <circle cx="176" cy="300" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.39213931552141035"/>
+  <circle cx="179" cy="243" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6823438402727829"/>
+  <circle cx="203" cy="43" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.7550701763506524"/>
+  <circle cx="125" cy="217" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.2561562008803299"/>
+  <circle cx="190" cy="46" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.46099576675601506"/>
+  <circle cx="28" cy="166" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5842957525081783"/>
+  <circle cx="244" cy="183" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.2375184833358614"/>
+  <circle cx="384" cy="139" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6861554966296719"/>
+  <circle cx="220" cy="268" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6727588617344148"/>
+  <circle cx="375" cy="57" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.2818836284679335"/>
+  <circle cx="204" cy="294" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.2569428637090055"/>
+  <circle cx="94" cy="191" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.7615573631198698"/>
+  <circle cx="169" cy="79" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6309682496142768"/>
+  <circle cx="252" cy="86" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.7753476904933958"/>
+  <circle cx="365" cy="225" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.3590034377966188"/>
+  <polygon points="50,140.0 70.0,130 130.0,130 150.0,140.0 150.0,155.0 130.0,165.0 70.0,165.0 50,155.0" fill="#607D8B" stroke="none" stroke-width="1"/>
+<circle cx="100.0" cy="140.0" r="18.0" fill="#AED6F1" stroke="none" stroke-width="1" opacity="0.7"/>
+<rect x="57.0" y="160.0" width="16.0" height="12.0" fill="#455A64" rx="3.0" ry="0" stroke="none" stroke-width="1"/>
+<circle cx="65.0" cy="174.0" r="6.0" fill="#FF6600" stroke="none" stroke-width="1" opacity="0.9"/>
+<rect x="127.0" y="160.0" width="16.0" height="12.0" fill="#455A64" rx="3.0" ry="0" stroke="none" stroke-width="1"/>
+<circle cx="135.0" cy="174.0" r="6.0" fill="#FF6600" stroke="none" stroke-width="1" opacity="0.9"/>
+<polygon points="40.0,165.0 70.0,150.0 70.0,165.0" fill="#455A64" stroke="none" stroke-width="1"/>
+<polygon points="160.0,165.0 130.0,150.0 130.0,165.0" fill="#455A64" stroke="none" stroke-width="1"/>
+  <rect x="304.05" y="174.5" width="11.9" height="11.9" fill="#888" rx="1.7" ry="0" stroke="none" stroke-width="1"/>
+<circle cx="310" cy="176.2" r="1.7" fill="#000" stroke="none" stroke-width="1" opacity="0.4"/>
+<rect x="306.6" y="186.4" width="6.8" height="5.1" fill="#888" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="301.5" y="191.5" width="17.0" height="15.299999999999999" fill="#607D8B" rx="1.7" ry="0" stroke="none" stroke-width="1"/>
+<rect x="294.7" y="191.5" width="6.8" height="11.9" fill="#607D8B" rx="1.7" ry="0" stroke="none" stroke-width="1"/>
+<rect x="318.5" y="191.5" width="6.8" height="11.9" fill="#607D8B" rx="1.7" ry="0" stroke="none" stroke-width="1"/>
+<rect x="301.5" y="206.8" width="7.6499999999999995" height="11.9" fill="#3A3A3A" rx="1.7" ry="0" stroke="none" stroke-width="1"/>
+<rect x="310.85" y="206.8" width="7.6499999999999995" height="11.9" fill="#3A3A3A" rx="1.7" ry="0" stroke="none" stroke-width="1"/>
+  <text x="195" y="110" font-size="13" fill="#B0BEC5" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">THE RAZOR CREST</text>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#37474F" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">STAR</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Star Wars Razor Crest</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 1023 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 10++</text>
+</svg>

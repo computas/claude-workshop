@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg21" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#CFD8DC" stop-opacity="1"/><stop offset="60%" stop-color="#ECEFF1" stop-opacity="1"/><stop offset="60%" stop-color="#DCEDC8" stop-opacity="1"/><stop offset="100%" stop-color="#C8E6C9" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bg21)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="140" y="50" width="120" height="200" fill="#C8B89A" rx="4" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="148" y="60" width="18" height="20" fill="#A49278" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="174" y="60" width="18" height="20" fill="#A49278" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="200" y="60" width="18" height="20" fill="#A49278" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="226" y="60" width="18" height="20" fill="#A49278" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="200" cy="170" r="35" fill="#EEE" stroke="none" stroke-width="1"/>
+  <circle cx="200" cy="170" r="30" fill="#DDDDD0" stroke="none" stroke-width="1"/>
+  <path d="M 200,170 L 200,145" fill="none" stroke="#333" stroke-width="3"/>
+  <path d="M 200,170 L 215,160" fill="none" stroke="#333" stroke-width="2.5"/>
+  <polygon points="140,50 200,10 260,50" fill="#B8A88A" stroke="none" stroke-width="1"/>
+  <rect x="0" y="248" width="400" height="52" fill="#64B5F6" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="0" y="256" width="400" height="44" fill="#42A5F5" rx="0" ry="0" stroke="none" stroke-width="1" opacity="0.6"/>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#546E7A" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">ARCHITECTURE</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Architecture Big Ben</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 2380 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 16++</text>
+</svg>

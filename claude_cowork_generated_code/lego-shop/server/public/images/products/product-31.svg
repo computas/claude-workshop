@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg25" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0D0D0D" stop-opacity="1"/><stop offset="100%" stop-color="#1A237E" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bg25)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="197" cy="215" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.3812417252050744"/>
+  <circle cx="346" cy="22" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.2844819095585063"/>
+  <circle cx="327" cy="215" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.7281559035704224"/>
+  <circle cx="21" cy="188" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6237062619143543"/>
+  <circle cx="189" cy="237" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.3400325248839777"/>
+  <circle cx="389" cy="272" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.8788752205518746"/>
+  <circle cx="123" cy="288" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.4354453695278485"/>
+  <circle cx="252" cy="181" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.42562994389434805"/>
+  <circle cx="387" cy="200" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.3023270112822075"/>
+  <circle cx="400" cy="287" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.8879205054767687"/>
+  <circle cx="38" cy="86" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.8253337663307907"/>
+  <circle cx="285" cy="11" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.875830870887037"/>
+  <circle cx="386" cy="112" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.35822765568780535"/>
+  <circle cx="234" cy="173" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.4439008743000159"/>
+  <circle cx="35" cy="277" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6728947838416661"/>
+  <circle cx="297" cy="144" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5968384624291702"/>
+  <circle cx="68" cy="106" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5518356919026095"/>
+  <circle cx="375" cy="57" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6355891810023413"/>
+  <circle cx="61" cy="107" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.25140970087855885"/>
+  <circle cx="315" cy="66" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.7402208006312037"/>
+  <circle cx="67" cy="168" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.4848775698491636"/>
+  <circle cx="18" cy="80" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6290745683854698"/>
+  <circle cx="165" cy="181" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.4103324964578008"/>
+  <circle cx="271" cy="145" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.7996487067592064"/>
+  <circle cx="383" cy="230" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5046465253340187"/>
+  <circle cx="33" cy="0" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5934793082505971"/>
+  <circle cx="320" cy="76" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.21878789131276913"/>
+  <circle cx="8" cy="104" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.8909344899093086"/>
+  <circle cx="107" cy="75" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.8318848493815962"/>
+  <circle cx="262" cy="121" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.34554706268088453"/>
+  <circle cx="39" cy="103" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.4322990680846768"/>
+  <circle cx="61" cy="173" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.35833637120183204"/>
+  <circle cx="67" cy="104" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.8969276483308297"/>
+  <circle cx="128" cy="300" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.2885288078964314"/>
+  <circle cx="293" cy="300" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.7117777166423536"/>
+  <circle cx="266" cy="116" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5114311535771197"/>
+  <circle cx="198" cy="223" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5777179389217204"/>
+  <circle cx="25" cy="162" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5348667001733207"/>
+  <circle cx="312" cy="77" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.41324047017014964"/>
+  <circle cx="113" cy="269" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.8496073403530386"/>
+  <circle cx="68" cy="53" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.27348136939998474"/>
+  <circle cx="288" cy="279" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.48182145285362793"/>
+  <circle cx="210" cy="141" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.2290667868080449"/>
+  <circle cx="65" cy="163" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.7830848897402154"/>
+  <circle cx="208" cy="9" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6863812501093939"/>
+  <circle cx="127" cy="134" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.6530794972160091"/>
+  <circle cx="265" cy="86" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.4557444320270118"/>
+  <circle cx="257" cy="141" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.8243970130583929"/>
+  <circle cx="269" cy="159" r="1" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5920296794906595"/>
+  <circle cx="217" cy="199" r="2" fill="#FFF" stroke="none" stroke-width="1" opacity="0.5916371531782363"/>
+  <polygon points="180,70.0 195.0,50 210.0,70.0 210.0,120.0 180,120.0" fill="#E0E0E0" stroke="none" stroke-width="1"/>
+<polygon points="195.0,30.0 180,70.0 210.0,70.0" fill="#1565C0" stroke="none" stroke-width="1"/>
+<circle cx="195.0" cy="85.0" r="8.0" fill="#AED6F1" stroke="none" stroke-width="1"/>
+<polygon points="170.0,120.0 180,100.0 180,120.0" fill="#1565C0" stroke="none" stroke-width="1"/>
+<polygon points="220.0,120.0 210.0,100.0 210.0,120.0" fill="#1565C0" stroke="none" stroke-width="1"/>
+<polygon points="188.0,120.0 195.0,140.0 202.0,120.0" fill="#FF6600" stroke="none" stroke-width="1"/>
+<polygon points="191.0,120.0 195.0,132.0 199.0,120.0" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <text x="200" y="252" font-size="14" fill="#64B5F6" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">NASA SATURN V</text>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#1A237E" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">IDEAS</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Ideas Saturn V</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 1969 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 16++</text>
+</svg>

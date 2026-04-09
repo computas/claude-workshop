@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg44" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#E3F2FD" stop-opacity="1"/><stop offset="60%" stop-color="#BBDEFB" stop-opacity="1"/><stop offset="60%" stop-color="#E8EAF6" stop-opacity="1"/><stop offset="100%" stop-color="#C5CAE9" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bg44)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <polygon points="30,60 20,90 40,90" fill="#B3E5FC" stroke="none" stroke-width="1" opacity="0.7"/>
+  <polygon points="60,100 50,130 70,130" fill="#B3E5FC" stroke="none" stroke-width="1" opacity="0.7"/>
+  <polygon points="310,50 300,80 320,80" fill="#B3E5FC" stroke="none" stroke-width="1" opacity="0.7"/>
+  <polygon points="340,80 330,110 350,110" fill="#B3E5FC" stroke="none" stroke-width="1" opacity="0.7"/>
+  <polygon points="20,160 10,190 30,190" fill="#B3E5FC" stroke="none" stroke-width="1" opacity="0.7"/>
+  <polygon points="370,140 360,170 380,170" fill="#B3E5FC" stroke="none" stroke-width="1" opacity="0.7"/>
+  <rect x="115.5" y="114.0" width="19.8" height="33.0" fill="#90CAF9" rx="3.3000000000000003" ry="0" stroke="none" stroke-width="1"/>
+<rect x="139.7" y="114.0" width="19.8" height="33.0" fill="#90CAF9" rx="3.3000000000000003" ry="0" stroke="none" stroke-width="1"/>
+<rect x="112.2" y="144.8" width="24.200000000000003" height="11.0" fill="#42A5F5" rx="4.4" ry="0" stroke="none" stroke-width="1"/>
+<rect x="136.4" y="144.8" width="24.200000000000003" height="11.0" fill="#42A5F5" rx="4.4" ry="0" stroke="none" stroke-width="1"/>
+<rect x="110" y="86.5" width="55.00000000000001" height="30.800000000000004" fill="#90CAF9" rx="4.4" ry="0" stroke="none" stroke-width="1"/>
+<rect x="123.2" y="92.0" width="28.6" height="17.6" fill="#42A5F5" rx="3.3000000000000003" ry="0" stroke="none" stroke-width="1" opacity="0.8"/>
+<rect x="96.8" y="86.5" width="13.200000000000001" height="26.400000000000002" fill="#90CAF9" rx="3.3000000000000003" ry="0" stroke="none" stroke-width="1"/>
+<rect x="165.0" y="86.5" width="13.200000000000001" height="26.400000000000002" fill="#90CAF9" rx="3.3000000000000003" ry="0" stroke="none" stroke-width="1"/>
+<rect x="121.0" y="67.8" width="33.0" height="19.8" fill="#90CAF9" rx="4.4" ry="0" stroke="none" stroke-width="1"/>
+<rect x="125.4" y="72.2" width="24.200000000000003" height="11.0" fill="#42A5F5" rx="2.2" ry="0" stroke="none" stroke-width="1" opacity="0.9"/>
+<circle cx="103.4" cy="85.4" r="5.5" fill="#42A5F5" stroke="none" stroke-width="1"/>
+<circle cx="171.60000000000002" cy="85.4" r="5.5" fill="#42A5F5" stroke="none" stroke-width="1"/>
+  <polygon points="240,50 248,130 256,50" fill="#B3E5FC" stroke="none" stroke-width="1"/>
+  <polygon points="242,50 250,100 258,50" fill="#E3F2FD" stroke="none" stroke-width="1" opacity="0.7"/>
+  <text x="200" y="268" font-size="12" fill="#1565C0" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">ICE SAMURAI MECH</text>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#1565C0" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">NINJAGO</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Ninjago Ice Samurai Mech</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 312 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 8++</text>
+</svg>

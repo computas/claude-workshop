@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg23" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#B3E5FC" stop-opacity="1"/><stop offset="60%" stop-color="#64B5F6" stop-opacity="1"/><stop offset="60%" stop-color="#80CBC4" stop-opacity="1"/><stop offset="100%" stop-color="#4DB6AC" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bg23)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="0" y="210" width="400" height="90" fill="#4DB6AC" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="155" y="200" width="90" height="50" fill="#BDBDBD" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="165" y="195" width="70" height="10" fill="#9E9E9E" rx="2" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="170" y="120" width="60" height="85" fill="#80CBC4" rx="5" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="165" y="130" width="15" height="40" fill="#80CBC4" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="220" y="110" width="15" height="45" fill="#80CBC4" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="200" cy="110" r="22" fill="#80CBC4" stroke="none" stroke-width="1"/>
+  <polygon points="205.13030214988504,95.90461068821138 204.35058173973485,88.43446178446071 210.52932179511146,90.6833392498861" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <polygon points="209.6418141452981,98.50933335321533 211.46405802832868,91.22300946575537 216.50101307107374,95.44951658437928" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <polygon points="212.99038105676658,102.5 217.194799727229,96.27633932434622 220.48243864164817,101.97069696106084" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <polygon points="214.7721162951831,107.39527733499605 220.8515948108086,102.98494520008143 221.99337982344014,109.46032978413074" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <polygon points="214.7721162951831,112.60472266500395 221.99337982344014,110.53967021586926 220.8515948108086,117.01505479991857" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <polygon points="212.99038105676658,117.5 220.48243864164817,118.02930303893916 217.194799727229,123.72366067565378" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <polygon points="209.6418141452981,121.49066664678467 216.50101307107374,124.55048341562072 211.46405802832868,128.77699053424465" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <rect x="228" y="95" width="6" height="20" fill="#FF8F00" rx="2" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="231" cy="92" r="8" fill="#FFD700" stroke="none" stroke-width="1" opacity="0.9"/>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#00695C" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">ARCHITECTURE</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Architecture Lib. of Lib…</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 1685 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 16++</text>
+</svg>

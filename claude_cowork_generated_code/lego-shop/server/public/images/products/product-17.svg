@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg11" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#FCE4EC" stop-opacity="1"/><stop offset="60%" stop-color="#F8BBD9" stop-opacity="1"/><stop offset="60%" stop-color="#FFF9C4" stop-opacity="1"/><stop offset="100%" stop-color="#FFF176" stop-opacity="1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="300" fill="url(#bg11)" rx="0" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="50" y="60" width="280" height="170" fill="#ECEFF1" rx="5" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="50" y="60" width="280" height="40" fill="#880E4F" rx="5" ry="0" stroke="none" stroke-width="1"/>
+  <text x="190" y="87" font-size="14" fill="#FFD700" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">PALACE CINEMA</text>
+  <rect x="80" y="100" width="12" height="130" fill="#E0E0E0" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="135" y="100" width="12" height="130" fill="#E0E0E0" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="245" y="100" width="12" height="130" fill="#E0E0E0" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="300" y="100" width="12" height="130" fill="#E0E0E0" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <rect x="90" y="108" width="200" height="30" fill="#FFF9C4" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <text x="190" y="128" font-size="10" fill="#880E4F" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">NOW PLAYING</text>
+  <rect x="155" y="160" width="70" height="70" fill="#8D6E63" rx="3" ry="0" stroke="none" stroke-width="1"/>
+  <circle cx="100" cy="105" r="4" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <circle cx="220" cy="105" r="4" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <circle cx="260" cy="105" r="4" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <circle cx="310" cy="105" r="4" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <circle cx="360" cy="105" r="4" fill="#FFD700" stroke="none" stroke-width="1"/>
+  <circle cx="16.666666666666668" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="50.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="83.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="116.66666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="150.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="183.33333333333334" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="216.66666666666666" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="250.0" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="283.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="316.6666666666667" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="350.00000000000006" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/><circle cx="383.33333333333337" cy="12" r="5" fill="#fff" stroke="none" stroke-width="1" opacity="0.12"/>
+  <rect x="0" y="0" width="100" height="24" fill="#880E4F" rx="0" ry="0" stroke="none" stroke-width="1"/><text x="50" y="17" font-size="10" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">CREATOR</text>
+  <rect x="0" y="240" width="400" height="60" fill="#FFD700" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<rect x="0" y="240" width="70" height="60" fill="#E3000B" rx="0" ry="0" stroke="none" stroke-width="1"/>
+<text x="35" y="276" font-size="11" fill="#fff" font-weight="900" text-anchor="middle" font-family="Arial,sans-serif">LEGO®</text>
+<text x="225" y="265" font-size="13" fill="#000" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Creator Palace Cinema</text>
+<rect x="310" y="246" width="82" height="22" fill="#fff" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="262" font-size="10" fill="#333" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">🧱 2196 pcs</text>
+<rect x="310" y="272" width="82" height="22" fill="#333" rx="4" ry="0" stroke="none" stroke-width="1"/>
+<text x="351" y="288" font-size="10" fill="#FFD700" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">Age 16++</text>
+</svg>

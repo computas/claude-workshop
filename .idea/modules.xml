@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/claude-workshop.iml" filepath="$PROJECT_DIR$/.idea/claude-workshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloude-code-generated/.idea/claude-workshop.iml" filepath="$PROJECT_DIR$/cloude-code-generated/.idea/claude-workshop.iml" />
     </modules>
   </component>
 </project>

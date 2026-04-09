@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "cart": "Cart",
+    "admin": "Admin"
+  },
+  "products": {
+    "title": "Lego Catalog",
+    "filter": "Filter by Category",
+    "all": "All Categories",
+    "price": "Price",
+    "add_to_cart": "Add to Cart"
+  },
+  "cart": {
+    "title": "Your Shopping Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shipping": "Shipping Address",
+    "invoicing": "Invoicing Address",
+    "name": "Full Name",
+    "address": "Address",
+    "city": "City",
+    "zip": "ZIP Code",
+    "pay": "Pay Now",
+    "success": "Order placed successfully!"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "orders": "Orders",
+    "status": "Status",
+    "actions": "Actions",
+    "logs": "Logs",
+    "refund": "Refund",
+    "confirm": "Confirm",
+    "ship": "Ship",
+    "deliver": "Deliver",
+    "cancel": "Cancel",
+    "technical_logs": "Technical Logs",
+    "business_logs": "Business Logs",
+    "order_logs": "Order Logs",
+    "open_logs_dir": "Open Logs Directory"
+  }
+}

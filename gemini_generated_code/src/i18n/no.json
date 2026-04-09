@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Hjem",
+    "cart": "Handlekurv",
+    "admin": "Admin"
+  },
+  "products": {
+    "title": "Lego-katalog",
+    "filter": "Filtrer etter kategori",
+    "all": "Alle kategorier",
+    "price": "Pris",
+    "add_to_cart": "Legg i handlekurv"
+  },
+  "cart": {
+    "title": "Din handlekurv",
+    "empty": "Handlekurven din er tom",
+    "total": "Totalt",
+    "checkout": "Gå til kassen"
+  },
+  "checkout": {
+    "title": "Kasse",
+    "shipping": "Leveringsadresse",
+    "invoicing": "Fakturaadresse",
+    "name": "Fullt navn",
+    "address": "Adresse",
+    "city": "By",
+    "zip": "Postnummer",
+    "pay": "Betal nå",
+    "success": "Bestillingen er mottatt!"
+  },
+  "admin": {
+    "title": "Admin-dashbord",
+    "orders": "Bestillinger",
+    "status": "Status",
+    "actions": "Handlinger",
+    "logs": "Logger",
+    "refund": "Refunder",
+    "confirm": "Bekreft",
+    "ship": "Send",
+    "deliver": "Lever",
+    "cancel": "Avbryt",
+    "technical_logs": "Tekniske logger",
+    "business_logs": "Forretningslogger",
+    "order_logs": "Bestillingslogger",
+    "open_logs_dir": "Åpne loggkatalog"
+  }
+}

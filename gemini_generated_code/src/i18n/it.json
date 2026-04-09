@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "cart": "Carrello",
+    "admin": "Admin"
+  },
+  "products": {
+    "title": "Catalogo Lego",
+    "filter": "Filtra per categoria",
+    "all": "Tutte le categorie",
+    "price": "Prezzo",
+    "add_to_cart": "Aggiungi al carrello"
+  },
+  "cart": {
+    "title": "Il tuo carrello",
+    "empty": "Il tuo carrello è vuoto",
+    "total": "Totale",
+    "checkout": "Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shipping": "Indirizzo di spedizione",
+    "invoicing": "Indirizzo di fatturazione",
+    "name": "Nome completo",
+    "address": "Indirizzo",
+    "city": "Città",
+    "zip": "CAP",
+    "pay": "Paga ora",
+    "success": "Ordine effettuato con successo!"
+  },
+  "admin": {
+    "title": "Pannello Admin",
+    "orders": "Ordini",
+    "status": "Stato",
+    "actions": "Azioni",
+    "logs": "Log",
+    "refund": "Rimborsa",
+    "confirm": "Conferma",
+    "ship": "Spedisci",
+    "deliver": "Consegna",
+    "cancel": "Annulla",
+    "technical_logs": "Log Tecnici",
+    "business_logs": "Log di Business",
+    "order_logs": "Log Ordine",
+    "open_logs_dir": "Apri cartella log"
+  }
+}

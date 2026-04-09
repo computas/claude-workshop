@@ -1,0 +1,5 @@
+{
+  "name": "BrickStore: Lego Shopping Example",
+  "description": "A full-stack Lego shopping application example with multi-language support, admin dashboard, and simulated payment.",
+  "requestFramePermissions": []
+}

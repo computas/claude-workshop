@@ -156,6 +156,34 @@ Koble til Terraform MCP og be Claude Code reviewe en infra-konfigurasjon. Observ
 
 ---
 
+## Skills og kommandoer
+
+Dette repoet har en innebygd skill som hjelper deg å legge til ny funksjonalitet og fikse bugs riktig.
+
+### `/add-feature`
+
+Bruk kommandoen `/add-feature` (eller bare beskriv hva du vil gjøre) for å implementere nye features eller fikse feil. Skillen sørger for at Claude:
+
+1. **Leser eksisterende kode først** — før den skriver en eneste linje
+2. **Følger eksisterende mønstre** — navngivning, arkitektur og konvensjoner fra det som allerede finnes
+3. **Holder seg minimal** — endrer bare det som er bedt om
+4. **Kjører tester og lint** etter endringer
+5. **Oppsummerer** hvilke filer som ble endret
+
+**Eksempler på bruk:**
+
+```
+/add-feature legg til søk på produktlisten
+/add-feature fiks buggen i handlekurven
+/add-feature implementer filtrering på kategori
+```
+
+Du kan også bare beskrive det du vil ha uten slash-kommandoen — skillen trigges automatisk.
+
+> **Tips:** Skillen stiller ett avklarende spørsmål hvis forespørselen er vag. Vær gjerne konkret om hva som skal skje og hva som skjer i dag.
+
+---
+
 ## Repostruktur
 
 ```
@@ -163,7 +191,8 @@ Koble til Terraform MCP og be Claude Code reviewe en infra-konfigurasjon. Observ
 ├── CLAUDE.md              # Kontekstfil for Claude Code (det viktigste)
 ├── .claude/
 │   ├── settings.json      # Tillatelser og MCP-konfigurasjon
-│   └── commands/          # Slash-kommandoer: /fix-ci, /add-feature, /write-test
+│   ├── commands/          # Slash-kommandoer: /fix-ci, /write-test
+│   └── skills/            # Skills: /add-feature
 ├── .github/workflows/     # CI (lint + typecheck + test) og E2E
 ├── frontend/              # React + Vite + TypeScript (port 5173)
 ├── backend/               # Express + TypeScript (port 3001)

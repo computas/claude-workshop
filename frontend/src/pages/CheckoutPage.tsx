@@ -1,0 +1,152 @@
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useAppContext } from '../context/AppContext.js';
+import { createOrder } from '../api/orders.js';
+import type { ShippingAddress } from '@workshop/shared';
+
+const emptyAddress: ShippingAddress = {
+  firstName: '', lastName: '', street: '', city: '', postalCode: '', country: '',
+};
+
+export function CheckoutPage() {
+  const { t, cart, sessionId, refreshCart } = useAppContext();
+  const navigate = useNavigate();
+
+  const [shipping, setShipping] = useState<ShippingAddress>({ ...emptyAddress });
+  const [billing, setBilling] = useState<ShippingAddress>({ ...emptyAddress });
+  const [sameAsBilling, setSameAsBilling] = useState(true);
+  const [cardNumber, setCardNumber] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [orderId, setOrderId] = useState<number | null>(null);
+
+  function updateShipping(field: keyof ShippingAddress, value: string) {
+    setShipping(prev => ({ ...prev, [field]: value }));
+  }
+
+  function updateBilling(field: keyof ShippingAddress, value: string) {
+    setBilling(prev => ({ ...prev, [field]: value }));
+  }
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setLoading(true);
+    setError(null);
+    try {
+      const order = await createOrder({
+        sessionId,
+        shippingAddress: shipping,
+        billingAddress: sameAsBilling ? shipping : billing,
+        sameAsBilling,
+        paymentToken: `card_${cardNumber.replace(/\s/g, '')}`,
+      });
+      await refreshCart();
+      setOrderId(order.id);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : t('checkout_error'));
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  if (orderId !== null) {
+    return (
+      <div style={{ padding: '48px', textAlign: 'center', maxWidth: '600px', margin: '0 auto' }}>
+        <div style={{ fontSize: '4rem', marginBottom: '16px' }}>✅</div>
+        <h1 style={{ color: '#38a169' }}>{t('checkout_success')}</h1>
+        <p style={{ color: '#718096', margin: '16px 0' }}>{t('checkout_order_number')}: <strong>#{orderId}</strong></p>
+        <button
+          onClick={() => navigate('/')}
+          style={{ padding: '12px 24px', background: '#0070f3', color: 'white', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: '600' }}
+        >
+          {t('cart_continue_shopping')}
+        </button>
+      </div>
+    );
+  }
+
+  const inputStyle: React.CSSProperties = {
+    width: '100%', padding: '8px 12px', border: '1px solid #e2e8f0', borderRadius: '6px',
+    fontSize: '0.95rem', boxSizing: 'border-box',
+  };
+  const labelStyle: React.CSSProperties = { display: 'block', marginBottom: '4px', fontWeight: '500', fontSize: '0.9rem' };
+  const sectionStyle: React.CSSProperties = { marginBottom: '24px' };
+  const fieldStyle: React.CSSProperties = { marginBottom: '12px' };
+
+  function AddressFields({ values, onChange }: { values: ShippingAddress; onChange: (field: keyof ShippingAddress, value: string) => void }) {
+    return (
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+        {(['firstName', 'lastName', 'street', 'city', 'postalCode', 'country'] as (keyof ShippingAddress)[]).map(field => (
+          <div key={field} style={field === 'street' ? { gridColumn: '1 / -1' } : {}}>
+            <label style={labelStyle}>{t(`checkout_${field === 'firstName' ? 'first_name' : field === 'lastName' ? 'last_name' : field === 'postalCode' ? 'postal_code' : field}` as Parameters<typeof t>[0])}</label>
+            <input style={inputStyle} value={values[field]} onChange={e => onChange(field, e.target.value)} required />
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ padding: '24px', maxWidth: '700px', margin: '0 auto' }}>
+      <h1 style={{ marginBottom: '24px' }}>{t('checkout_title')}</h1>
+
+      <div style={{ background: '#f7fafc', borderRadius: '8px', padding: '16px', marginBottom: '24px' }}>
+        <strong>{t('cart_total')}: {cart.total.toLocaleString('nb-NO')} {t('nok')}</strong>
+        <span style={{ color: '#718096', marginLeft: '12px' }}>({cart.items.length} {t('cart_items')})</span>
+      </div>
+
+      <form onSubmit={e => void handleSubmit(e)}>
+        <div style={sectionStyle}>
+          <h2 style={{ marginBottom: '16px' }}>{t('checkout_shipping')}</h2>
+          <AddressFields values={shipping} onChange={updateShipping} />
+        </div>
+
+        <div style={{ ...fieldStyle, marginBottom: '16px' }}>
+          <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }}>
+            <input type="checkbox" checked={sameAsBilling} onChange={e => setSameAsBilling(e.target.checked)} />
+            {t('checkout_same_as_billing')}
+          </label>
+        </div>
+
+        {!sameAsBilling && (
+          <div style={sectionStyle}>
+            <h2 style={{ marginBottom: '16px' }}>{t('checkout_billing')}</h2>
+            <AddressFields values={billing} onChange={updateBilling} />
+          </div>
+        )}
+
+        <div style={sectionStyle}>
+          <h2 style={{ marginBottom: '16px' }}>{t('checkout_payment')}</h2>
+          <div style={fieldStyle}>
+            <label style={labelStyle}>{t('checkout_card_number')}</label>
+            <input
+              style={inputStyle}
+              value={cardNumber}
+              onChange={e => setCardNumber(e.target.value)}
+              placeholder="4242 4242 4242 4242"
+              required
+            />
+          </div>
+        </div>
+
+        {error && (
+          <div style={{ padding: '12px', background: '#fff5f5', border: '1px solid #feb2b2', borderRadius: '6px', color: '#c53030', marginBottom: '16px' }}>
+            {error}
+          </div>
+        )}
+
+        <button
+          type="submit"
+          disabled={loading}
+          style={{
+            width: '100%', padding: '14px', background: loading ? '#a0aec0' : '#0070f3',
+            color: 'white', border: 'none', borderRadius: '8px', cursor: loading ? 'not-allowed' : 'pointer',
+            fontWeight: '700', fontSize: '1.1rem',
+          }}
+        >
+          {loading ? t('checkout_processing') : t('checkout_place_order')}
+        </button>
+      </form>
+    </div>
+  );
+}

@@ -120,17 +120,6 @@ npm test -- backend/tests/services/cart.test.ts
 
 ---
 
-## Kjente bevisste feil (workshop-bugs)
-
-Disse er **pedagogiske feil** som ikke skal fikses uten eksplisitt instruksjon:
-
-| Fil | Feil | Oppgave |
-|-----|------|---------|
-| `frontend/src/api/client.ts:2` | Port er `3002` i stedet for `3001` | Oppgave 2 |
-| `backend/src/services/productService.ts:53` | SQL-injeksjon i `searchProducts()` | Sikkerhetsdemo |
-| `frontend/src/components/admin/Dashboard.tsx` | Viser bare `TODO: Dashboard` | Oppgave 5 |
-
----
 
 ## Skills og slash-kommandoer
 
@@ -138,5 +127,3 @@ Disse er **pedagogiske feil** som ikke skal fikses uten eksplisitt instruksjon:
 |----------|-------------|
 | `/add-feature` | Implementer nye features eller fiks bugs etter prosjektets mønstre |
 | `/code-reviewer` | Grundig kodegjennomgang med funn sortert etter alvorlighetsgrad |
-| `/fix-ci` | Les GitHub Actions-logger og fiks CI-feil |
-| `/write-test` | Skriv manglende tester for eksisterende kode |

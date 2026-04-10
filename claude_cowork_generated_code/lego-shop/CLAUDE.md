@@ -1,6 +1,6 @@
 # LEGO Shop — Claude Code Project Context
 
-This is a **course example application** for a workshop on AI agents. It is a full-stack LEGO shopping website, intentionally simplified for teaching purposes.
+This is a **workshop example application** for a workshop on AI agents. It is a full-stack LEGO shopping website, intentionally simplified for teaching purposes.
 
 ## How to run
 
@@ -44,7 +44,7 @@ server/   Express.js REST API (ES modules — "type": "module")
 
 The database is **in-memory SQLite** using `sql.js` (pure JS — no native binaries). It is re-created from `server/data/seed.sql` every time the server starts.
 
-- **All data is lost on server restart** — this is intentional for the course.
+- **All data is lost on server restart** — this is intentional for the workshop.
 - The `DatabaseWrapper` class in `db.js` provides a `better-sqlite3`-compatible API (`.prepare().get/all/run()`).
 - Import the db in routes with: `import db from '../db.js'`
 

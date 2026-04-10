@@ -184,6 +184,33 @@ Du kan også bare beskrive det du vil ha uten slash-kommandoen — skillen trigg
 
 ---
 
+### `/code-reviewer`
+
+Bruk kommandoen `/code-reviewer` for å kjøre en grundig kodegjennomgang av hele applikasjonen eller spesifikke deler. Skillen analyserer koden og produserer en strukturert rapport med funn sortert etter alvorlighetsgrad.
+
+Skillen dekker:
+
+1. **Sikkerhet** — SQL-injeksjon, XSS, CSRF, autentisering, autorisasjon, usikker input-håndtering
+2. **Kodekvalitet** — bugs, feilhåndtering, ubrukt kode, race conditions
+3. **Ytelse** — unødvendige databasekall, manglende paginering, minnelekkasjer
+4. **Beste praksis** — TypeScript strict mode, input-validering, logging, security headers
+
+Funn rapporteres med alvorlighetsgrad (**Critical / High / Medium / Low**), filreferanse med linjenummer, og konkrete forslag til utbedring.
+
+**Eksempler på bruk:**
+
+```
+/code-reviewer
+/code-reviewer gjennomgå autentisering og autorisasjon
+/code-reviewer se etter sikkerhetsproblemer i backend
+```
+
+**Støttede språk og rammeverk:** TypeScript, JavaScript, Python, Go, Swift, Kotlin — React, Next.js, Express, GraphQL
+
+> **Tips:** Skillen identifiserer også bevisste workshop-bugs og markerer dem tydelig som sådanne, slik at du ser forskjellen mellom pedagogiske feil og reelle sårbarheter.
+
+---
+
 ## Repostruktur
 
 ```

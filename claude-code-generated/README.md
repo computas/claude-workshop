@@ -23,8 +23,7 @@ npm run build -w shared
 npm run dev
 ```
 
-Frontend: http://localhost:5173  
-Backend API: http://localhost:3001
+Frontend: http://localhost:5173Backend API: http://localhost:3001
 
 > **Merk:** Appen starter med en bevisst feil i API-klienten (feil port). Dette er **Oppgave 2**. Frontend laster ikke produkter før feilen er fikset.
 
@@ -38,6 +37,7 @@ npm run build     # Produksjonsbygg
 ```
 
 Kjør én testfil:
+
 ```bash
 npm test -- backend/tests/services/cart.test.ts
 ```
@@ -51,6 +51,7 @@ npm test -- backend/tests/services/cart.test.ts
 Les `CLAUDE.md`, utforsk mappestrukturen og eksisterende tester. Forstå domenelaget og arkitekturen.
 
 **Spørsmål å diskutere:**
+
 - Hvorfor er denne appen godt egnet for agentisk utvikling?
 - Hva gir Claude Code kontekst til å plassere ny kode riktig?
 - Hvordan hjelper `shared/`-pakken FE og BE å holde seg i sync?
@@ -84,20 +85,16 @@ Observer forskjellen: Uten kontekst gjetter Claude på konvensjoner og legger ti
 
 ---
 
-### Oppgave 4 — Fix CI (20 min)
+### Oppgave 4 — Rette funksjonell feil ved utfylling av betalings detaljer (20 min)
 
-Bytt til branchen med ødelagt CI:
 
-```bash
-git checkout workshop/broken-ci
-```
+Når du skal registrere navn og adresse under betalings detaljer får brukeren en dårlig brukeropplevelse. en "kjent" feil i REACT fører til at brukerene kun får teste et tegn på tastaturet før fokus går vekk fra feltet.
 
-CI-pipelinen feiler. Bruk Claude Code til å:
-1. Lese GitHub Actions-loggene med `gh`
-2. Finne rotårsaken til feilen
-3. Fikse feilen lokalt og verifisere
+1. Rette feilen
+2. kjøre tester
+3. bekrefte korrekt funksjonalitet
 
-**Tips:** Bruk slash-kommandoen `/fix-ci`
+ **Tips:** Bruk slash-kommandoen `/add-feature` sammen med beskrivele av problemet
 
 **Demonstrerer:** Daglig utviklerflyt 10x raskere med AI
 
@@ -141,6 +138,7 @@ Start alle tre samtidig og observer gjennomstrømmingen.
 ### Bonus A — Playwright MCP (25 min)
 
 Installer Playwright MCP-serveren og koble den til Claude Code. Bruk den til å:
+
 - Kjøre E2E-testene og observere dem visuelt
 - Debugge den flaky testen i `e2e/cart.spec.ts`
 
@@ -230,11 +228,12 @@ Funn rapporteres med alvorlighetsgrad (**Critical / High / Medium / Low**), filr
 
 ## Teknisk stack
 
-| Del | Teknologi |
-|-----|-----------|
-| Frontend | React 18, Vite, TypeScript, React Router v6 |
-| Backend | Express, TypeScript, better-sqlite3 |
-| Database | SQLite (in-memory, seedes ved oppstart) |
-| Testing | Vitest (enhet + integrasjon), Playwright (E2E) |
-| CI/CD | GitHub Actions |
-| Logging | Winston (teknisk log + per-bestilling forretningslogg) |
+
+| Del      | Teknologi                                              |
+| -------- | ------------------------------------------------------ |
+| Frontend | React 18, Vite, TypeScript, React Router v6            |
+| Backend  | Express, TypeScript, better-sqlite3                    |
+| Database | SQLite (in-memory, seedes ved oppstart)                |
+| Testing  | Vitest (enhet + integrasjon), Playwright (E2E)         |
+| CI/CD    | GitHub Actions                                         |
+| Logging  | Winston (teknisk log + per-bestilling forretningslogg) |

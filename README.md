@@ -1,4 +1,4 @@
-# Dette repoistoriet er en samling av prosjkekter som danner bakgrunn for en intern workship om Agentisk utvikling i Computas
+# Dette repoistoriet er en samling av prosjkekter som danner bakgrunn for en intern workshop om Agentisk utvikling i Computas
 
 Felles for alle prosjektene er at de er laget med "samme" prompt  (utgangspunkt) dokumentert under docs katalogen
 

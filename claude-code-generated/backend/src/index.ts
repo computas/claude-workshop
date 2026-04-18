@@ -10,7 +10,7 @@ import paymentsRouter from './routes/payments.js';
 import { getDb } from './database/db.js';
 
 const app = express();
-const PORT = process.env.PORT ?? 3001;
+const PORT = process.env.PORT ?? 3111;
 
 app.use(express.json());
 app.use(requestLogger);

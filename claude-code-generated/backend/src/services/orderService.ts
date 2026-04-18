@@ -1,4 +1,4 @@
-import type { Order, OrderItem, OrderStatus, ShippingAddress } from '@workshop/shared';
+import type { Order, OrderItem, OrderStatus, OrderStats, ShippingAddress } from '@workshop/shared';
 import { getDb } from '../database/db.js';
 import { getCart, clearCart } from './cartService.js';
 import { chargePayment, refundPayment } from './paymentService.js';
@@ -141,6 +141,28 @@ export function updateOrderStatus(orderId: number, newStatus: OrderStatus): Orde
   logOrderEvent(orderId, 'status_changed', { from: order.status, to: newStatus });
 
   return getOrderById(orderId)!;
+}
+
+const ALL_STATUSES: OrderStatus[] = ['received', 'confirmed', 'canceled', 'shipped', 'delivered', 'awaiting_return', 'returned'];
+
+export function getOrderStats(): OrderStats {
+  const db = getDb();
+
+  const rows = db.prepare(
+    'SELECT status, COUNT(*) as count, COALESCE(SUM(total), 0) as revenue FROM orders GROUP BY status'
+  ).all() as { status: OrderStatus; count: number; revenue: number }[];
+
+  const countByStatus = Object.fromEntries(ALL_STATUSES.map(s => [s, 0])) as Record<OrderStatus, number>;
+  let totalRevenue = 0;
+  let totalOrders = 0;
+
+  for (const row of rows) {
+    countByStatus[row.status] = row.count;
+    totalRevenue += row.revenue;
+    totalOrders += row.count;
+  }
+
+  return { countByStatus, totalRevenue, totalOrders };
 }
 
 export function refundOrder(orderId: number): Order {

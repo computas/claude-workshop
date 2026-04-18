@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getAllOrders, updateOrderStatus, refundOrder } from '../services/orderService.js';
+import { getAllOrders, updateOrderStatus, refundOrder, getOrderStats } from '../services/orderService.js';
 import { logsDirectory, getOrderLogPath } from '../utils/logger.js';
 import type { OrderStatus } from '@workshop/shared';
 import { readFileSync, existsSync } from 'fs';
@@ -7,6 +7,14 @@ import { exec } from 'child_process';
 import { technicalLogger } from '../utils/logger.js';
 
 const router = Router();
+
+router.get('/stats', (_req, res, next) => {
+  try {
+    res.json(getOrderStats());
+  } catch (err) {
+    next(err);
+  }
+});
 
 router.get('/orders', (req, res, next) => {
   try {

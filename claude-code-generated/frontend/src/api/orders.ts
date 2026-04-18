@@ -1,4 +1,4 @@
-import type { Order, OrderStatus, CheckoutPayload } from '@workshop/shared';
+import type { Order, OrderStats, OrderStatus, CheckoutPayload } from '@workshop/shared';
 import { apiFetch } from './client.js';
 
 export function createOrder(payload: CheckoutPayload): Promise<Order> {
@@ -41,4 +41,8 @@ export function getOrderLogs(orderId: number, includeTechnical = false): Promise
 
 export function openLogsDirectory(): Promise<{ success: boolean; path: string }> {
   return apiFetch('/admin/logs/open-directory', { method: 'POST' });
+}
+
+export function getAdminStats(): Promise<OrderStats> {
+  return apiFetch<OrderStats>('/admin/stats');
 }

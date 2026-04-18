@@ -97,3 +97,9 @@ export interface ApiError {
   error: string;
   details?: unknown;
 }
+
+export interface OrderStats {
+  countByStatus: Record<OrderStatus, number>;
+  totalRevenue: number;
+  totalOrders: number;
+}

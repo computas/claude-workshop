@@ -1,4 +1,5 @@
 import { useAppContext } from '../../context/AppContext.js';
+import { cat } from '../../theme.js';
 
 interface Props {
   themes: string[];
@@ -6,9 +7,10 @@ interface Props {
   onThemeChange: (theme: string) => void;
   searchQuery: string;
   onSearchChange: (query: string) => void;
+  onSearchSubmit?: () => void;
 }
 
-export function ProductFilter({ themes, selectedTheme, onThemeChange, searchQuery, onSearchChange }: Props) {
+export function ProductFilter({ themes, selectedTheme, onThemeChange, searchQuery, onSearchChange, onSearchSubmit }: Props) {
   const { t } = useAppContext();
 
   return (
@@ -18,13 +20,16 @@ export function ProductFilter({ themes, selectedTheme, onThemeChange, searchQuer
         placeholder={t('products_search')}
         value={searchQuery}
         onChange={e => onSearchChange(e.target.value)}
+        onKeyDown={e => e.key === 'Enter' && onSearchSubmit?.()}
         style={{
           padding: '8px 16px',
-          border: '1px solid #e2e8f0',
+          border: `1px solid ${cat.surface2}`,
           borderRadius: '8px',
           fontSize: '0.95rem',
           minWidth: '250px',
           flex: 1,
+          background: cat.surface0,
+          color: cat.text,
         }}
       />
 
@@ -33,10 +38,11 @@ export function ProductFilter({ themes, selectedTheme, onThemeChange, searchQuer
         onChange={e => onThemeChange(e.target.value)}
         style={{
           padding: '8px 12px',
-          border: '1px solid #e2e8f0',
+          border: `1px solid ${cat.surface2}`,
           borderRadius: '8px',
           fontSize: '0.95rem',
-          background: 'white',
+          background: cat.surface0,
+          color: cat.text,
         }}
       >
         <option value="">{t('products_all_themes')}</option>

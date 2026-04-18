@@ -1,4 +1,5 @@
 import type { Language } from '@workshop/shared';
+import { cat } from '../../theme.js';
 
 interface Props {
   language: Language;
@@ -20,10 +21,10 @@ export function LanguageSwitcher({ language, onLanguageChange }: Props) {
           onClick={() => onLanguageChange(lang.code)}
           style={{
             padding: '4px 8px',
-            border: '1px solid #ccc',
+            border: `1px solid ${cat.surface2}`,
             borderRadius: '4px',
-            background: language === lang.code ? '#0070f3' : 'transparent',
-            color: language === lang.code ? 'white' : 'inherit',
+            background: language === lang.code ? cat.blue : 'transparent',
+            color: language === lang.code ? cat.crust : cat.text,
             cursor: 'pointer',
             fontWeight: language === lang.code ? 'bold' : 'normal',
           }}

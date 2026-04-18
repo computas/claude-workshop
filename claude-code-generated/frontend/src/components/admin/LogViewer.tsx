@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { getOrderLogs, openLogsDirectory } from '../../api/orders.js';
 import { useAppContext } from '../../context/AppContext.js';
+import { cat } from '../../theme.js';
 
 interface Props {
   orderId: number;
@@ -41,9 +42,9 @@ export function LogViewer({ orderId }: Props) {
   return (
     <div>
       <div style={{ display: 'flex', gap: '12px', alignItems: 'center', marginBottom: '16px', flexWrap: 'wrap' }}>
-        <h3 style={{ margin: 0 }}>{t('admin_logs_title')}</h3>
+        <h3 style={{ margin: 0, color: cat.text }}>{t('admin_logs_title')}</h3>
 
-        <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '0.9rem' }}>
+        <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '0.9rem', color: cat.subtext1 }}>
           <input
             type="checkbox"
             checked={includeTechnical}
@@ -55,45 +56,46 @@ export function LogViewer({ orderId }: Props) {
         <button
           onClick={handleOpenDir}
           style={{
-            padding: '6px 14px', background: '#f7fafc', border: '1px solid #e2e8f0',
-            borderRadius: '6px', cursor: 'pointer', fontSize: '0.9rem',
+            padding: '6px 14px', background: cat.surface1, border: `1px solid ${cat.surface2}`,
+            borderRadius: '6px', cursor: 'pointer', fontSize: '0.9rem', color: cat.text,
           }}
         >
           📂 {t('admin_open_logs_dir')}
         </button>
       </div>
 
-      {loading && <div style={{ color: '#718096' }}>{t('loading')}</div>}
-      {error && <div style={{ color: '#e53e3e' }}>{error}</div>}
+      {loading && <div style={{ color: cat.subtext0 }}>{t('loading')}</div>}
+      {error && <div style={{ color: cat.red }}>{error}</div>}
 
       {!loading && !error && allLogs.length === 0 && (
-        <div style={{ color: '#718096', fontStyle: 'italic' }}>{t('admin_no_logs')}</div>
+        <div style={{ color: cat.subtext0, fontStyle: 'italic' }}>{t('admin_no_logs')}</div>
       )}
 
       {allLogs.length > 0 && (
         <div style={{
-          background: '#1a1a2e',
-          color: '#e2e8f0',
+          background: cat.mantle,
+          color: cat.text,
           borderRadius: '8px',
           padding: '16px',
           fontFamily: 'monospace',
           fontSize: '0.85rem',
           maxHeight: '400px',
           overflowY: 'auto',
+          border: `1px solid ${cat.surface1}`,
         }}>
           {allLogs.map((entry, i) => {
             const { timestamp, message, level, ...rest } = entry as Record<string, unknown>;
             return (
-              <div key={i} style={{ marginBottom: '8px', borderBottom: '1px solid #2d3748', paddingBottom: '8px' }}>
-                <span style={{ color: '#68d391' }}>{String(timestamp ?? '')}</span>
+              <div key={i} style={{ marginBottom: '8px', borderBottom: `1px solid ${cat.surface0}`, paddingBottom: '8px' }}>
+                <span style={{ color: cat.green }}>{String(timestamp ?? '')}</span>
                 {' '}
-                <span style={{ color: level === 'error' ? '#fc8181' : '#90cdf4', fontWeight: 'bold' }}>
+                <span style={{ color: level === 'error' ? cat.red : cat.sapphire, fontWeight: 'bold' }}>
                   [{String(level ?? 'info').toUpperCase()}]
                 </span>
                 {' '}
-                <span>{String(message ?? '')}</span>
+                <span style={{ color: cat.text }}>{String(message ?? '')}</span>
                 {Object.keys(rest).length > 0 && (
-                  <pre style={{ margin: '4px 0 0 0', color: '#a0aec0', fontSize: '0.8rem', whiteSpace: 'pre-wrap' }}>
+                  <pre style={{ margin: '4px 0 0 0', color: cat.subtext0, fontSize: '0.8rem', whiteSpace: 'pre-wrap' }}>
                     {JSON.stringify(rest, null, 2)}
                   </pre>
                 )}

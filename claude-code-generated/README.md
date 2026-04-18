@@ -76,7 +76,7 @@ Appen starter, men produktlisten er tom og det er en feil i nettleserkonsollen.
 
 Den viktigste oppgaven. Gjør **nøyaktig samme oppgave** to ganger:
 
-1. **Uten CLAUDE.md:** Slett filen, be Claude Code: *"Legg til søkefunksjon på produktlista"*
+1. **Uten CLAUDE.md:** Slett filen, be Claude Code: *"Legg til søkefunksjon der man skal kunne søke på antall brikker i sette eller alder"*
 2. **Med CLAUDE.md:** Gjenopprett filen (`git checkout CLAUDE.md`), be om det samme
 
 Observer forskjellen: Uten kontekst gjetter Claude på konvensjoner og legger ting på feil sted. Med kontekst følger Claude alle mønstre perfekt og skriver tester som matcher eksisterende.

@@ -146,11 +146,10 @@ Installer Playwright MCP-serveren og koble den til Claude Code. Bruk den til å:
 
 ---
 
-### Bonus B — Terraform MCP (15 min)
-
-Koble til Terraform MCP og be Claude Code reviewe en infra-konfigurasjon. Observer hvordan MCP utvider Claude utover kode.
-
-**Demonstrerer:** MCP som brobygger mellom kode og infrastruktur
+### Bonus B — 
+Starte et helt nytt prosjekt og sett opp superpowers
+https://www.claudepluginhub.com/plugins/obra-superpowers-2
+Bruk brainstorm til å begynne på en ny idè du selv kunne tenke deg å lage
 
 ---
 

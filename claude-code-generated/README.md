@@ -102,11 +102,6 @@ Når du skal registrere navn og adresse under betalings detaljer får brukeren e
 
 ### Oppgave 5 — Full feature (40 min)
 
-Gå tilbake til hovedbranchen:
-
-```bash
-git checkout start-workshop-take2
-```
 
 Admin-dashboardet viser bare `TODO: Dashboard`. Bygg en komplett feature:
 

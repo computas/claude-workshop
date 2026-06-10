@@ -72,20 +72,8 @@ Appen starter, men produktlisten er tom og det er en feil i nettleserkonsollen.
 
 ---
 
-### Oppgave 3 — Context Matters (20 min)
 
-Den viktigste oppgaven. Gjør **nøyaktig samme oppgave** to ganger:
-
-1. **Uten CLAUDE.md:** Slett filen, be Claude Code: *"Legg til søkefunksjon der man skal kunne søke på antall brikker i sette eller alder"*
-2. **Med CLAUDE.md:** Gjenopprett filen (`git checkout CLAUDE.md`), be om det samme
-
-Observer forskjellen: Uten kontekst gjetter Claude på konvensjoner og legger ting på feil sted. Med kontekst følger Claude alle mønstre perfekt og skriver tester som matcher eksisterende.
-
-**Demonstrerer:** Kontrasten mellom agentisk utvikling med og uten context engineering
-
----
-
-### Oppgave 4 — Rette funksjonell feil ved utfylling av betalings detaljer (20 min)
+### Oppgave 3 — Rette funksjonell feil ved utfylling av betalings detaljer (20 min)
 
 
 Når du skal registrere navn og adresse under betalings detaljer får brukeren en dårlig brukeropplevelse. en "kjent" feil i REACT fører til at brukerene kun får teste et tegn på tastaturet før fokus går vekk fra feltet.
@@ -100,7 +88,7 @@ Når du skal registrere navn og adresse under betalings detaljer får brukeren e
 
 ---
 
-### Oppgave 5 — Full feature (40 min)
+### Oppgave 4 — Full feature (40 min)
 
 
 Admin-dashboardet viser bare `TODO: Dashboard`. Bygg en komplett feature:
@@ -116,7 +104,7 @@ Admin-dashboardet viser bare `TODO: Dashboard`. Bygg en komplett feature:
 
 ---
 
-### Oppgave 6 — Parallell kraft (30 min)
+### Oppgave 5 — Parallell kraft (30 min)
 
 Bruk Claude Code med subagenter for å løse tre uavhengige oppgaver samtidig:
 
